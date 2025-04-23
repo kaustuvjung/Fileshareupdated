@@ -8,7 +8,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 app.config['MAX_CONTENT_LENGTH'] = 2 * 1024 * 1024 * 1024  # 2GB limit
-PORT = 5000
+PORT = 4000
 
 # Get folder path with validation
 while True:
